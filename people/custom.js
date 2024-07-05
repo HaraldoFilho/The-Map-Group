@@ -204,8 +204,8 @@ function addListener(country) {
   }
 
   var country_url = "https://the-map-group.github.io/countries/".concat(country_code.toLowerCase());
-  document.getElementById(country_code).addEventListener('click', function() { addMarkersToCountry(country_code, current_index); fitBoundingBox(country_bbox); });
-  document.getElementById(country_code.concat("_markers")).addEventListener('click', function() { addMarkersToCountry(country_code, current_index); });
+  document.getElementById(country_code).addEventListener('click', function() { fitBoundingBox(country_bbox); });
+  document.getElementById(country_code.concat("_markers")).addEventListener('click', function() { fitBoundingBox(country_bbox); addMarkersToCountry(country_code, current_index); });
 
 }
 
