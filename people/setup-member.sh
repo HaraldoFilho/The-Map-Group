@@ -3,6 +3,13 @@
 REPO_DIR="/home/pi/github/the-map-group.github.io"
 GEN_MAP_DIR="/home/pi/flickr_map"
 
+if [ -z $1 ];
+  then
+    echo "Usage: ./setup-member.sh <member>"
+    exit 1
+fi
+
+
 if [[ -e $REPO_DIR/people/$1 ]];
     then
         rm -fr $REPO_DIR/people/$1

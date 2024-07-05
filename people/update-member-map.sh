@@ -2,9 +2,19 @@
 
 REPO_DIR="/home/pi/github/the-map-group.github.io"
 
+if [ -z $1 ];
+  then
+    echo "Usage: ./update-member-map.sh <member>"
+    exit 1
+fi
+
 git pull origin master
 
 cd $REPO_DIR/people/$1
+
+git checkout -- countries.py
+git checkout -- locations.py
+git checkout -- user.py
 
 ./generate-map-data.py
 

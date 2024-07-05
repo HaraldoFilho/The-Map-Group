@@ -3,6 +3,12 @@
 REPO_DIR="/home/pi/github/the-map-group.github.io"
 GEN_MAP_DIR="/home/pi/flickr_map"
 
+if [ -z $1 ];
+  then
+    echo "Usage: ./reset-member-map.sh <member>"
+    exit 1
+fi
+
 git pull origin master
 
 cd $REPO_DIR/people/$1
