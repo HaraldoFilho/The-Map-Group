@@ -1,20 +1,2 @@
 countries_dict = {
-  'CA': ['Canada', 907, 1766],
-  'NZ': ['New Zealand', 1, 1],
-  'LY': ['Libya', 1, 1],
-  'IT': ['Italy', 35, 43],
-  'TW': ['Taiwan', 1, 1],
-  'FR': ['France', 9, 12],
-  'CN': ['South China Sea Islands (disputed)', 1, 1],
-  'US': ['United States', 85, 151],
-  'CD': ['Democratic Republic of the Congo', 1, 1],
-  'QA': ['Qatar', 1, 1],
-  'ID': ['Indonesia', 1, 1],
-  'ET': ['Ethiopia', 1, 1],
-  'NA': ['Namibia', 1, 1],
-  'CU': ['Cuba', 86, 166],
-  'GB': ['United Kingdom', 18, 22],
-  'MN': ['Mongolia', 1, 2],
-  'AU': ['Australia', 1, 1],
-  'DE': ['Germany', 2, 3]
 }
