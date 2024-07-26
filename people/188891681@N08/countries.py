@@ -1,20 +1,2 @@
 countries_dict = {
-  'FR': ['France', 5, 21],
-  'AT': ['Austria', 1, 1],
-  'KW': ['Kuwait', 1, 1],
-  'DE': ['Germany', 2, 2],
-  'CZ': ['Czechia', 1, 1],
-  'HU': ['Hungary', 1, 2],
-  'IT': ['Italy', 5, 5],
-  'GR': ['Greece', 25, 34],
-  'GB': ['United Kingdom', 4, 6],
-  'US': ['United States of America', 9, 9],
-  'SK': ['Slovakia', 1, 1],
-  'HR': ['Croatia', 1, 1],
-  'CA': ['Canada', 1, 1],
-  'RO': ['Romania', 1, 1],
-  'NL': ['Netherlands', 1, 1],
-  'EG': ['Egypt', 1, 1],
-  'CH': ['Switzerland', 2, 2],
-  'JP': ['Japan', 1, 1]
 }
